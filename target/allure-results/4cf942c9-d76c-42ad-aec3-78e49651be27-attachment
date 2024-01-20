@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><Request contentType="JSON" method="POST" name="Добавить товар" template="classpath:templates/Товар.json">
+    <Cookie>
+        <FieldString inPath="false" locator="JSESSIONID" name="Сессия"/>
+    </Cookie>
+    <Body>
+        <FieldString inPath="false" locator="$.name" name="Наименование"/>
+        <FieldString inPath="false" locator="$.type" name="Тип"/>
+        <FieldBoolean inPath="false" locator="$.exotic" name="Экзотический"/>
+    </Body>
+</Request>

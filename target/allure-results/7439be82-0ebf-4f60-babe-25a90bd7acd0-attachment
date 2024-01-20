@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><Endpoint name="Список товаров" path="api/food">
+    <Request contentType="JSON" method="GET" name="Запросить список"/>
+    <Request contentType="JSON" method="POST" name="Добавить товар" template="classpath:template/Товар.json">
+        <Body>
+            <FieldString inPath="false" locator="$.name" name="Наименование"/>
+            <FieldString inPath="false" locator="$.type" name="Тип"/>
+            <FieldBoolean inPath="false" locator="$.exotic" name="Экзотический"/>
+        </Body>
+    </Request>
+    <Response contentType="JSON" name="Получить список" statusCode="200 OK (хорошо)">
+        <Body>
+            <FieldString inPath="false" locator="$.length()" name="Количество записей"/>
+        </Body>
+    </Response>
+    <Response contentType="JSON" name="Товар добавлен" statusCode="200 OK (хорошо)"/>
+</Endpoint>

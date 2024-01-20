@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><Response name="getResponse" statusCode="200 OK (хорошо)">
+    <Body>
+        <FieldString inPath="false" locator="$.length()" name="Кол-во товаров"/>
+    </Body>
+</Response>

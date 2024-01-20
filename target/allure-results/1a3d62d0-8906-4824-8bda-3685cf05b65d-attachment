@@ -1,0 +1,6 @@
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=1F5B0CAC8FF53418E15EA18EEE9F05CC; Path=/; HttpOnly
+Content-Length: 0
+Date: Sat, 20 Jan 2024 11:40:30 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive

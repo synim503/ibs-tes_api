@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><Response contentType="JSON" name="Получить список" statusCode="200 OK (хорошо)">
+    <Body>
+        <FieldString inPath="false" locator="$.length()" name="Количество записей"/>
+    </Body>
+    <Cookie>
+        <FieldString inPath="false" locator="JSESSIONID" name="Сессия"/>
+    </Cookie>
+</Response>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><Endpoint name="Список товаров" path="api/food">
+    <Request contentType="JSON" method="GET" name="Запросить список">
+        <Cookie>
+            <FieldString inPath="false" locator="JSESSIONID" name="Сессия"/>
+        </Cookie>
+    </Request>
+    <Request contentType="JSON" method="POST" name="Добавить товар" template="classpath:templates/Товар.json">
+        <Cookie>
+            <FieldString inPath="false" locator="JSESSIONID" name="Сессия"/>
+        </Cookie>
+        <Body>
+            <FieldString inPath="false" locator="$.name" name="Наименование"/>
+            <FieldString inPath="false" locator="$.type" name="Тип"/>
+            <FieldBoolean inPath="false" locator="$.exotic" name="Экзотический"/>
+        </Body>
+    </Request>
+    <Response contentType="JSON" name="Получить список" statusCode="200 OK (хорошо)">
+        <Body>
+            <FieldString inPath="false" locator="$.length()" name="Количество записей"/>
+        </Body>
+        <Cookie>
+            <FieldString inPath="false" locator="JSESSIONID" name="Сессия"/>
+        </Cookie>
+    </Response>
+    <Response contentType="JSON" name="Товар добавлен" statusCode="200 OK (хорошо)">
+        <Cookie>
+            <FieldString inPath="false" locator="JSESSIONID" name="Сессия"/>
+        </Cookie>
+    </Response>
+</Endpoint>

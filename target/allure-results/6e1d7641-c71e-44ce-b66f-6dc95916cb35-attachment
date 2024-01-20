@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><Endpoint name="Сброс тестовых данных" path="api/data/reset">
+    <Request contentType="JSON" method="POST" name="Сбросить"/>
+    <Response contentType="JSON" name="Сброс выполнен успешно" statusCode="200 OK (хорошо)"/>
+</Endpoint>

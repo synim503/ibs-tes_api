@@ -1,0 +1,7 @@
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=E99FF85DBC32D40BAC45E67B6C33D2C2; Path=/; HttpOnly
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Sat, 20 Jan 2024 11:06:42 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive

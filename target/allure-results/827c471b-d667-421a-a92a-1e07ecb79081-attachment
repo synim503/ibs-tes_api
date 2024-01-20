@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><Response contentType="JSON" name="Товар добавлен" statusCode="200 OK (хорошо)">
+    <Cookie>
+        <FieldString inPath="false" locator="JSESSIONID" name="Сессия"/>
+    </Cookie>
+</Response>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="QualITPlugin">
+    <option name="moduleName" />
+    <option name="settings">
+      <list>
+        <Setting>
+          <option name="name" value="allure.enabled" />
+          <option name="type" value="checkbox" />
+          <option name="value" value="true" />
+        </Setting>
+        <Setting>
+          <option name="name" value="api.attachContent" />
+          <option name="type" value="checkbox" />
+          <option name="value" value="true" />
+        </Setting>
+        <Setting>
+          <option name="name" value="api.attachMeta" />
+          <option name="type" value="checkbox" />
+          <option name="value" value="true" />
+        </Setting>
+      </list>
+    </option>
+  </component>
+</project>
